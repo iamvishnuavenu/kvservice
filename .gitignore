@@ -1,0 +1,7 @@
+.py_*
+instance/*
+kvservice.egg-info
+py3.8
+tests/__pycache__/
+kvservice/__pycache__/
+*.pyc

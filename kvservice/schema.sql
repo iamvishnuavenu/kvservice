@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS kv;
+
+CREATE TABLE kv (
+    key TEXT UNIQUE NOT NULL,
+    value TEXT NOT NULL
+)
