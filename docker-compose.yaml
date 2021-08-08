@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  kvservice:
+    environment: 
+        FLASK_ENV: development
+        FLASK_APP: kvservice
+    build: .
+    ports:
+      - "5000:5000"
